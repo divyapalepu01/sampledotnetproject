@@ -1,0 +1,20 @@
+class Addition
+{
+
+public int Add(int a,int b)
+{
+return a+b;
+
+}
+
+
+}
+class AdditionMain
+{
+static void Main(){
+
+Addition a=new Addition();
+a.Add(10,20);
+
+}
+}
