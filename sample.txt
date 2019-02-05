@@ -1,9 +1,9 @@
 class Addition
 {
 
-public int Add(int a,int b)
+public void Add(int a,int b)
 {
-return a+b;
+Console.ReadLine("result is" + a+b);
 
 }
 
